@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI Summary",
+  "version": "1.0.0",
+  "description": "AI Summary Extension",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:11434/*"
+  ],
+
+  "action": {
+    "default_popup": "index.html"
+  }
+}
+
